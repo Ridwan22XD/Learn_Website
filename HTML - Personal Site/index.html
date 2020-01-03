@@ -10,8 +10,16 @@
     <!-- Show in tab browser -->
     <title>My Note</title>
 </head>
+<!-- Style for rounded img  -->
+<style>
+    img {
+        border-radius: 50%;
+    }
+</style>
 <body>
     <!-- Tittle in Body -->
+    <!-- alt used when src can't access  -->
+    <img src="profile.jpg" alt="Test">
     <h1>Ridwan XD</h1>
     <!-- New Paragraf about information University-->
     <p>
@@ -74,9 +82,14 @@
 
     <h3>Hobbies</h3>
     <!-- ol sets an orderlist -->
-    <ol type="i">
-        <li>Swimming</li>
+    <ol>
         <li>Basket</li>
+        <li>Swimming</li>
+        <ol type="a">
+            <li>Diving</li>
+            <li>surfing</li>
+        </ol>
+        
         <li>Running</li>
     </ol>
 
