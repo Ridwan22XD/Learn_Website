@@ -1,0 +1,27 @@
+div {
+    background-color: cornflowerblue;
+}
+
+body {
+    margin: 0;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+/* class */
+.top-container {
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+}
+.middle-container {
+    width: 200px;
+    height: 200px;
+    background-color: darkgray;
+}
