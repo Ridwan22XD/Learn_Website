@@ -2,6 +2,8 @@
 /* Style for rounded img */
 img {
     border-radius: 50%;
+    height: 200px;
+    width: 160px;
 }
 
 body {
