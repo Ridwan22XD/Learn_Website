@@ -1,0 +1,26 @@
+img {
+    background-color: cornflowerblue;
+}
+
+
+/* id use # */
+#h_MyPet {
+    font-size: 50px;
+    color: cyan;
+}
+
+
+
+/* class use . */
+
+.p_MyPet {
+    font-size: 20px;
+    color: darkturquoise;
+}
+.cat-1 {
+    background-color: deeppink;
+}
+
+.circular {
+    border-radius: 100%;
+}
