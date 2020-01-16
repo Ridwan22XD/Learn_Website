@@ -1,8 +1,10 @@
 body {
     margin: 0;
+    text-align: center;
 }
 
 h2 {
+    padding: 7% 0 0 0;
     margin-top: 0;
 }
 
@@ -15,7 +17,22 @@ p {
 /* class */
 .top-container {
     background-color: #c7f0db;
+    padding: 80px 0% 0% 0%;
+    height: 600px;
 }
+.cloud-top {
+    position: absolute;
+    right: 15%;
+}
+.cloud-bottom {
+    position: absolute;
+    left: 15%;
+}
+.background {
+
+
+}
+
 .middle-container {
     width: 100%;
     height: 200px;
@@ -27,9 +44,3 @@ p {
     background-color: darkgray;
 }
 
-.graphic-top {
-    width: 50%;
-    height: 25%;
-    margin-left: 25%;
-    margin-right: 25%;
-}
